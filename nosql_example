@@ -1,0 +1,35 @@
+nosql_example
+
+{
+ name: "John";
+ age: 54,
+ city: "NYC",
+ comments: [
+  {text: "This is nice post"}
+  ]
+ favoriteColor: "blue"
+ 
+ },
+
+ {
+ name: "Will";
+ age: 23,
+ city: "LA",
+ comments: [
+  {text: "Its nice to be here"}
+  ]
+ favoriteColor: "red"
+ 
+ },
+ 
+  {
+ name: "Lily";
+ age: 29,
+ city: "Washington",
+ comments: [
+  {text: "Come visit me"},
+  {text: "Techstitution is great"}
+ ]
+ favoriteColor: "green"
+ 
+ }

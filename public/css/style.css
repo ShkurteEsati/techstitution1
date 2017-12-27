@@ -1,0 +1,37 @@
+body {
+  /* Old browsers */
+  background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+  margin: 0;
+  padding: 0;
+}
+
+#forma-e-regjistrimit {
+   text-align: center;
+  font-size: 30px;
+  width: 80%;
+  color: black;
+
+}
+
+.row {
+  background-color:#2BBBAD;
+  background-size: cover;
+  background-position: bottom color;
+  height: 1000px;
+  width: 102%;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 auto;
+  padding-top: 5px;
+
+}
+
+p {
+    font-size: 20px;
+    font-family: Georgia;
+  }

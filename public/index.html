@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+
+      <title> Techstitution </title>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<!-- importimi i fajllave bootstrap css -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+        
+		<!-- importimi i fajllave js -->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        
+		<!-- importimi i fajllave boostrap ne js -->
+		<script  type="text/javascript" src="css/bootstrap/js/bootstrap.min.js"></script>
+		
+        <script type="text/javascript" src="js/script.js"></script>
+        
+     </head>
+
+     <body>
+         
+         <div class="container-fluid">
+         <!--  <p id="techstitution" class="main"> Techstitution </p> -->
+         <div class="row">
+          <div class="col-xs-offset-3 col-xs-8">
+
+		    <h3 id="forma-e-regjistrimit"> Forma e regjistrimit të pikave kufitare </h3>
+          
+          <form class="form-horizontal" id="border-wait-form">
+
+          	<input type="hidden" id="datetime-now"/>
+
+              <!-- form group eshte e definuar brenda boostrap -->
+			  <div class="form-group form-style-group">
+			  <hr></hr>
+                <label for="pika-kufitare" class="control-label col-xs-3">Pika kufitare</label>
+
+			      <div class="form-group">
+                    <!-- <label for="pikat-kufitare">Zgjedh piken kufitare</label> -->
+                    <select id="pika-kufitare" class="control-label col-xs-3.7" name="pika-kufitare"> 
+                      <option>Zgjedh pikën kufitare</option>
+                      <option value="vermice">Vërmicë</option>
+                      <option value="qafe-e-prushit">Qafë e Prushit</option>
+                      <option value="qafe-e-morines">Qafë e Morines</option>
+                      <option value="kulle">Kullë</option>
+                      <option value="bernjak">Bërnjak</option>
+                      <option value="jarinje">Jarinje</option>
+                      <option value="merdare">Merdarë</option>
+                      <option value="mutivode">Mutivodë</option>
+                      <option value="dheu-i-bardhe">Dheu i bardhë</option>
+                      <option value="muqibabe">Muqibabë</option>
+                      <option value="hani-i-elezit">Hani i Elezit</option>
+                      <option value="glloboqice">Glloboqicë</option>
+                    </select>
+                  </div> 
+			  </div>
+
+               <hr></hr>
+               <p>Hyrje</p>
+
+			  <div class="form-group">
+
+				<label type="text" for="min" class="control-label col-xs-3" name="hyrje-min" >Minimum</label>
+				    <div class="col-xs-3">
+				      <input type="number" min="0" max="59" class="form-control" id="hyrje-min-minuta">
+				    </div>
+				    <span style="margin-left:-10px;">minuta<span> 
+			  </div>
+				
+				<div class="form-group">
+				  <label type="text" for="max" class="control-label col-xs-3" name="hyrje-max" >Maximum</label>
+				   <div class="col-xs-3">
+				     <input type="number" min="0" max="59" id="hyrje-max-minuta" class="form-control">
+			       </div>
+			        <span style="margin-left:-10px;">minuta</span>
+			    </div>
+			  
+			  <p>Dalje</p>
+			  <div class="form-group">
+				
+				<label type="text" for="min" class="control-label col-xs-3" name="dalje-min" >Minimum</label>
+				   <div class="col-xs-3">
+				     <input type="number" min="0" max="59"  id="dalje-min-minuta" class="form-control">
+				   </div>
+				   <span style="margin-left:-10px;">minuta</span> 
+			  </div>
+				
+				<div class="form-group">
+				  <label type="text" for="max" class="control-label col-xs-3" name="dalje-max" >Maximum</label>
+				  <div class="col-xs-3">
+				    <input type="number" min="0" max="59"  id="dalje-max-minuta" class="form-control">
+                  </div>
+                  <span style="margin-left:-10px;">minuta</span>
+                </div>
+	
+	              <hr></hr>	
+
+
+		       	  <p>Hyrje</p>
+
+			<div class="form-group">
+
+
+				<label type="text" for="min" class="control-label col-xs-3" name="hyrje-min" >Minimum</label>
+				    <div class="col-xs-3">
+				      <input type="number"  min="0" class="form-control" id="hyrje-min-metra">
+				    </div>
+				    <span style="margin-left:-10px;">metra<span> 
+			  </div>
+				
+				<div class="form-group">
+				  <label  type="text" for="max" class="control-label col-xs-3" name="hyrje-min" >Maximum</label>
+				   <div class="col-xs-3">
+				     <input type="number"  min="0" id="hyrje-max-metra" class="form-control">
+			       </div>
+			       <span style="margin-left:-10px;">metra</span>
+			    </div>
+			  
+			  <p>Dalje</p>
+			  <div class="form-group">				
+
+				<label type="text" for="min" class="control-label col-xs-3" name="dalje-metra-min" >Minimum</label>
+				   <div class="col-xs-3">
+				     <input type="number"  min="0" id="dalje-min-metra" class="form-control">
+				   </div>
+				   <span style="margin-left:-10px;">metra</span> 
+			  </div>
+				
+				<div class="form-group">
+				  <label type="text" for="max" class="control-label col-xs-3" name="dalje-max" >Maximum</label>
+				  <div class="col-xs-3">
+				    <input type="number" min="0" id="dalje-max-metra" class="form-control">
+                  </div>
+                  <span style="margin-left:-10px;">metra</span>
+                </div>
+
+                <!--<div class="form-group"> 
+                   <div class="col-sm-offset-2 col-sm-10">
+                   <button type="submit" class="btn btn-default">Dergo</button>
+                   </div>
+                </div>
+                <div class="form-group"> 
+                   <div class="col-sm-offset-2 col-sm-10">
+                   <button type="delete" class="btn btn-default">Fshij</button>
+                   </div>
+                </div> -->
+               <div class="form-group">          
+                 <div class="col-xs-offset-3 col-xs-10">
+                    <button type="submit" class="btn btn-primary">Dergo</button>
+                    <button type="delete" class="btn btn-primary">Fshij</button>
+                 </div>
+               </div>
+    
+         </form>
+     </div>
+ </div>
+                  </div>
+     </body>
+
+  </html>
